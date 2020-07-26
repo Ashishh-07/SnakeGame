@@ -47,7 +47,7 @@ function draw() {
 
 
   if (snake.endGame()) {
-    console.log("Mar dala bc");
+    alert("Mar dala bc");
     background(255, 0, 0);
     noLoop();
   }
